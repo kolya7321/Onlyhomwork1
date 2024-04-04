@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <style>
+        body{margin: 0}
+
+        .box1{
+            background-color: cornflowerblue;
+            width: 100px;
+            height: 100px;
+            border: 1px;
+            margin: 20px;
+            font-family: "Indie Flower", cursive;
+            font-weight: 400;
+            font-style: normal ;
+
+
+        }
+        .box2{background-color: cornflowerblue;
+            width: 100px;
+            height: 100px;
+            border: 1px;
+            margin: 20px;
+            font-family: "Fjalla One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .box3{background-color: cornflowerblue;
+            width: 100px;
+            height: 100px;
+            border: 1px;
+            margin: 20px;
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight:<weight>;
+            font-style: normal;
+        }
+        .box4{background-color: cornflowerblue;
+            width: 100px;
+            height: 100px;
+            border: 1px;
+            margin: 20px;
+            font-family: "Sedgwick Ave Display", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .box5{background-color: cornflowerblue;
+            width: 100px;
+            height: 100px;
+            border: 1px;
+            margin: 20px;
+            font-family: "Rubik Pixels", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .boss{
+            background-color: burlywood;
+            height: 500px;
+            display: flex;
+            align-content: start;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        span{background-size: cover}
+
+    </style>
+</head>
+<body>
+
+
+
+
+<div class="boss">
+    <div class="box1"><span>Rubik Pixels</span></div>
+    <div class="box2"><span>Sedowick Ace Displag</span></div>
+    <div class="box3"><span>Dancing Script</span> </div>
+    <div class="box4"><span>Fjalla One</span></div>
+    <div class="box5"><span>Indie Flower</span></div>
+
+</div>
+</body>
+</html>
